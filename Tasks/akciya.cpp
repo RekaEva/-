@@ -82,7 +82,7 @@ int ft_one_kassa(void)
     while (i < set_buyer)
     {
         int counter = 1;
-        while (arr_b[i + 1] == arr_b[i])
+        while (arr_b.size() > i + 1 && arr_b[i + 1] == arr_b[i])
         {
             i++;
             counter++;
