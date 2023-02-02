@@ -94,3 +94,15 @@ C. Парное программирование (10 баллов)
 2 5
 4 7
 6 8
+
+
+
+
+
+
+
+vector<float> tm;
+vector<vector <float> > m1;
+ 
+tm.push_back(1.3123);
+m1.push_back(tm);
